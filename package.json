@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "sql-wasm": "^1.1.4"
+  }
+}

@@ -1,13 +1,57 @@
+HTML :
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/JavaScript" src="./script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./defi.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section-01">
+            <input type="search" id="search-input" placeholder="search...">
+            <button id="search-button">Search</button>
+ 
+            <table>
+                <caption>Liste des personnes</caption>
+                <tr>
+                    <td>Nom</td>
+                    <td>Age</td>
+                    <td>Genre</td>
+                </tr>
+            </table>
+        </div>
+ 
+        <div class="section-02">
+ 
+        </div>
+            <ol class="list-info">
+                <li>Poids </li>
+                <li>Nom de l'Équipement</li>
+                <li>Dernière date de location </li>
+                <li>En location </li>
+                <li>Catégorie </li>
+            </ol>
+        </div>
+ 
+</body>
+</html>
+ 
+CSS :
+ 
 .section-01 {
     transform: translateX(40%);
     margin-top: 100px;
 }
-
+ 
 #search-input {
     padding: 10px;
     width: 300px;
 }
-
+ 
 #search-button {
     padding: 10px;
     width: 100px;
@@ -16,3 +60,30 @@
     border-radius: 10%;
     font-size: 20px;
 }
+ 
+.list-info{
+    transform: translateX(40%);
+}
+ 
+table, caption {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+ 
+caption {
+    font-size: 20px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+ 
+table {
+    background-color: aquamarine;
+    margin: 10px;
+}
+ 
+td {
+    font-size: 20px;
+    font-weight: bold;
+}
+ 

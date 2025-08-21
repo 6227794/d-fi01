@@ -9,21 +9,38 @@
 <body>
     <div class="container">
         <div class="section-01">
-            <input type="search" id="search-input" placeholder="search...">
-            <button id="search-button">Search</button>
+            <input type="search" id="search-input" onkeyup="researchData()" placeholder="search...">
+            <!-- <button id="search-button">Search</button> -->
+
+            <ul id="list-holder">
+
+            </ul>
+
+            <!-- <table>
+                <caption>Liste des personnes</caption>
+                <tr>
+                    <td>Nom</td>
+                    <td>Age</td>
+                    <td>Genre</td>
+                </tr>
+            </table> -->
         </div>
         
     </div>
-    <ul id="suggestions-list"></ul>
+    <!-- <ul id="suggestions-list"></ul> -->
 
     <script src="scriipt.js"></script>
 
-    <ol>
-        <li>Poids </li>
-        <li>Nom de l'Équipement</li>
-        <li>Dernière date de location </li>
-        <li>En location </li>
-        <li>Catégorie </li>
-      </ol>
+    <div class="section-02">
+ 
+    </div>
+        <ol class="list-info">
+            <li>Poids </li>
+            <li>Nom de l'Équipement</li>
+            <li>Dernière date de location </li>
+            <li>En location </li>
+            <li>Catégorie </li>
+        </ol>
+    </div>
 </body>
 </html>
